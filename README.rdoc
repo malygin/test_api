@@ -10,7 +10,7 @@ two endpoints
 
 I save all attributes from tags in db and code required postgres and json column type (for attributes storing)
 
-code can be easily upgraded (if client needed it) for parsing other tags and
+code can be easily upgraded (if client need it) for parsing other tags and
 showing all information about tags
 
 two files with integration tests
