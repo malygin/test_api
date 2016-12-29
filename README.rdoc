@@ -1,6 +1,7 @@
 == README
 
 two endpoints
+
 1) parse content in h1 h2 h3 a tags, f.e
 /api/load_content?url=https://www.yandex.ru/
 
@@ -11,4 +12,12 @@ I save all attributes from tags in db and code required postgres and json column
 
 code can be easily upgraded (if client needed it) for parsing other tags and
 showing all information about tags
+
+two files with integration tests
+
+on heroku
+
+https://edtech-test-api.herokuapp.com/api/load_content?url=https://www.yandex.ru/
+
+https://edtech-test-api.herokuapp.com/api/list_content
 
