@@ -1,0 +1,30 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+#
+default: &default
+  adapter: postgresql
+  encoding: unicode
+
+development:
+  <<: *default
+  database: edtech_api_development
+  host: localhost
+#development:
+#  <<: *default
+#  database: bookinero_production
+#  host: 139.162.142.169
+#  post: 5432
+#  username: postgres
+#  password: bookinero13158
+
+
+test:
+  <<: *default
+  database: edtech_api_test
+
+production:
+  <<: *default
+  database: db/production.sqlite3

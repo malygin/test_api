@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  source: http://ya.ru
+  content: h1Content
+  tag: h1
+  html_attrs: 
+
+two:
+  source: http://ya.ru
+  content: aContent
+  tag: a
+  html_attrs: {'href': 'ahref'}
+
+three:
+  source: http://ya.ru
+  content: aContent
+  tag: a
+  html_attrs: {'class': 'aclass'}
